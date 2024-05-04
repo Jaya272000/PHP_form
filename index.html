@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to travel form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img class="bg" src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D" alt="iitbg" srcset="">
+  <div class="container">
+    <h1>welcome to Our Libery managment Form</h1> <br>
+
+    <form action="data.php" method="post">
+      <label for="title">Book Title:</label>
+      <input type="text" id="title" name="title" required><br><br>
+      
+      <label for="author">Author(s):</label>
+      <input type="text" id="author" name="author" required><br><br>
+      
+      <label for="p_year">Publication Year:</label>
+      <input type="number" id="year" name="p_year" required><br><br>
+      
+  
+      <label for="genre">Genre:</label>
+      <select id="genre" name="genre">
+          <option value="fiction">Fiction</option>
+          <option value="non-fiction">Non-Fiction</option>
+          <option value="mystery">Mystery</option>
+          <option value="thriller">Thriller</option>
+      </select><br><br>
+  
+      <input type="submit" value="Add Book" class="btn">
+  </form>
+  
+    <!-- <h1>welcome to Our Libery managment Form</h1>
+    <p>Enter your details and submit form </p>
+    <p class="t">Thank for submiting your form We will get back to you</p>
+    <form action="data.php" method="post">
+      <input type="text" name="name" id="" placeholder="Enter your name">
+      <input type="text" name="age" id="" placeholder="Enter your age" >
+      <input type="text" name="gender" id="" placeholder="Enter your gender" >
+      <input type="email" name="email" id="" placeholder="Enter your email" >
+      <input type="phone" name="phone" id="" placeholder="Enter your phone" >
+      <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any information here"></textarea>
+      <button class="btn">submit</button>
+    </form> -->
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
